@@ -1,0 +1,192 @@
+.navbar.navbar-default.navbar-fixed-top {
+	colour: red;
+}
+
+/* the text beside the site title */
+.navbar-text {
+  font-style: bold;
+  font-size: 11px;
+  color: #000000 !important;
+  line-height: 100%;
+  padding-top: 5px;
+  margin:15px 20px 0 5px;
+}
+
+h1.home {
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: bold;
+    margin-left: 40px;
+}
+h1, h2, h3 > a, h4, h5, h6 {
+    color: white !important;
+    font-family: "Akzidenz", Helvetica, Arial, sans-serif !important;
+}
+
+
+
+body {
+background: #ce0920;
+background: -moz-linear-gradient(top, #ce0920 0%, #cb0c1b 51%, #d20a23 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ce0920), color-stop(51%, #cb0c1b), color-stop(100%, #d20a23));
+background: -webkit-linear-gradient(top, #ce0920 0%, #cb0c1b 51%, #d20a23 100%);
+background: -o-linear-gradient(top, #ce0920 0%, #cb0c1b 51%, #d20a23 100%);
+background: -ms-linear-gradient(top, #ce0920 0%, #cb0c1b 51%, #d20a23 100%);
+background: linear-gradient(to bottom, #ce0920 0%, #cb0c1b 51%, #d20a23 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0920', endColorstr='#d20a23', GradientType=0);
+font-size: 17px;
+font-family: "Akzidenz", Helvetica, Arial, sans-serif;
+color: black;
+}
+
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, orange 0%, white 50%);
+  background-image: linear-gradient(to bottom, orange 0%, white 50%);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCCC', endColorstr='orange', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+    color: black !important;
+}
+
+ul.nav.navbar-nav {
+    color: black !important;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: bold;
+
+}
+
+a {
+color: black;
+}
+a:hover {
+text-decoration: none;
+}
+
+h3 > a {
+color: white;
+}
+
+div.navbar-collapse.collapse {
+    }
+p {
+font-family: "Akzidenz", Helvetica, Arial, sans-serif;
+font-size: 17px;
+line-height: 20px;
+color: #000000;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+color: black !important;
+}
+
+.nav > li > a:hover, .nav > li > a:focus, h3 > a:hover, h3 > a:focus {
+text-decoration: none;
+background-color: #4FD5D6 !important;
+
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+.nav > li > a, h3 > a {
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -moz-transition: background-color 0.4s ease-in-out;
+  -ms-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+.special-link {
+  color: #e26571;
+
+}
+.special-link > a:hover, .special-link > a:focus, h1 > a:hover {
+  color: #eea5ac;
+}
+a.special-link:hover {
+  color: #eea5ac;
+}
+hr {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.main-page > h5, h6, .main-page > div {
+margin-top: 0px;
+padding-left: 0px !important;
+}
+.main-page > h5, h6 {
+ font-weight: bold;
+}
+
+/* Glyph, by Harry Roberts */
+		
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double black;
+    color: black;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "Â§";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ce0920;
+}
+
+/* Gradient color1 - color2 - color1 */
+		
+hr.style-one {
+    border: 0;
+  /*height: 1px;*/
+    background: #ce0920;
+    background-image: -webkit-linear-gradient(left, #ce0920, black, #ce0920); 
+    background-image:    -moz-linear-gradient(left, #ce0920, black, #ce0920); 
+    background-image:     -ms-linear-gradient(left, #ce0920, black, #ce0920); 
+    background-image:      -o-linear-gradient(left, #ce0920, black, #ce0920);
+    border-bottom: 1px dashed #ce0920; 
+}
+
+.postd {
+font-size: 13px;
+color: #fff;
+margin: 0 0 10px;
+}
+
+.blog-meta {
+  font-style: bold;
+}
+h5.col-md-2.pull-right {
+  margin-top: 9px;
+}
+.help-block {
+  color: white;
+}
+
+div.alert.alert-dismissable.alert-info.col-md-11 {
+  margin-left: 30px;
+}
+

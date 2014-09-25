@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load i18n comment_tags blog_tags mezzanine_tags keyword_tags disqus_tags %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+
+{% block main %}
+{# {% blocktrans %} #}
+<div>
+{% blog_recent_posts 5 as recent_posts %}
+{% if recent_posts %}
+{% for recent_post in recent_posts %}
+<h1><a href="{{ recent_post.get_absolute_url }}" >{{ recent_post.title }}</a></h1>
+<hr class="style-one">
+<div class="col-md-3 main-page  postd">
+{% with recent_post.user as author %}
+    <h6>Posted by: <a href="{% url "blog_post_list_author" author %}" class="special-link">{{ author.get_full_name|default:author.username }}</a></h6>
+{% endwith %}
+<h6>{{ recent_post.publish_date|timesince }} {% trans "ago" %}</h6>
+<h6><a href="{{ recent_post.get_absolute_url }}" class="special-link">{{ recent_post.comments_count }} Comment{{ recent_post.comments_count|pluralize }}</a></h6>
+</div>
+<div class="recent-summary col-md-9 main-page">
+{{ recent_post.description_from_content|safe }}
+
+<h5><a href="{{ recent_post.get_absolute_url }}" class="special-link">{% trans "read more&hellip;" %}</a></h5>
+
+</div>
+{% endfor %}
+{% endif %}
+</div>
+{# {% endblocktrans %} #}
+{% endblock %}
+
