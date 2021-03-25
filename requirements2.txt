@@ -9,7 +9,7 @@ Mezzanine==3.1.9
 PAM==0.4.2
 Pillow==2.5.1
 PyPDF2==1.22
-PyYAML==3.10
+PyYAML==5.4
 Pygments==1.6
 Sphinx==1.2
 Twisted-Core==13.0.0
