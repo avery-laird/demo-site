@@ -10,7 +10,7 @@ PAM==0.4.2
 Pillow==2.5.1
 PyPDF2==1.22
 PyYAML==3.10
-Pygments==1.6
+Pygments==2.7.4
 Sphinx==1.2
 Twisted-Core==13.0.0
 Twisted-Names==13.0.0
