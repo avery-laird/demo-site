@@ -47,7 +47,7 @@ html5lib==0.999
 httplib2==0.8
 jsonpatch==1.0
 jsonpointer==1.0
-lxml==3.2.0
+lxml==4.6.3
 mercurial==2.6.3
 numpy==1.7.1
 oauth==1.0.1
