@@ -93,7 +93,7 @@ uWSGI==2.0.7
 ubuntuone-storage-protocol==13.10
 udiskie==0.6.1
 unity-lens-photos==1.0
-urllib3==1.6
+urllib3==1.26.5
 virtualenv==1.10.1
 wsgiref==0.1.2
 xdiagnose==3.6.1
