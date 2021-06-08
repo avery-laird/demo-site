@@ -7,7 +7,7 @@ Mako==0.8.1
 MarkupSafe==0.15
 Mezzanine==3.1.9
 PAM==0.4.2
-Pillow==2.5.1
+Pillow==8.2.0
 PyPDF2==1.22
 PyYAML==3.10
 Pygments==1.6
